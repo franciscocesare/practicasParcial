@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1576087412 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+
+1573415846 c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\inputdiaz.h
+
+1576090438 c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_1.h
+
+1576088343 c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_2.h
+
+1576090080 c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_3.h
+	"entidad_1.h"
+
+1576089115 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"categoria.h"
+	"juego.h"
+	"clientes.h"
+	"alquileres.h"
+
+1576079716 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_4.c
+
+1573415846 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\inputdiaz.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
+1576092801 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
+1576087609 c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\informes.h
+
+1576086752 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"entidad_1.h"
+
+1576088343 source:c:\users\usuario\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
+1576086754 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"entidad_1.h"
+
+1573415846 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\inputdiaz.h
+
+1576190713 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_2.h
+
+1576189501 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_3.h
+
+1576090440 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_1.h
+
+1576087414 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+
+1573415846 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\inputdiaz.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
+1576189835 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"categoria.h"
+	"juego.h"
+	"clientes.h"
+	"alquileres.h"
+
+1576183368 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"entidad_4.h"
+
+1576183368 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\entidad_4.h
+
+1576189254 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
+1576189210 c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\informes.h
+
+1576189274 source:c:\users\alumno\desktop\practicandotps\practicas parcial 1\parcialfantasma - pilotos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
+1576193285 source:d:\parcialfantasma - pilotos\entidad_1.c
+
+1573415846 d:\parcialfantasma - pilotos\inputdiaz.h
+
+1576193362 d:\parcialfantasma - pilotos\entidad_2.h
+	"entidad_3.h"
+
+1576194416 d:\parcialfantasma - pilotos\entidad_3.h
+
+1576193150 d:\parcialfantasma - pilotos\entidad_1.h
+
+1576198085 source:d:\parcialfantasma - pilotos\entidad_3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"categoria.h"
+	"juego.h"
+	"clientes.h"
+	"alquileres.h"
+
+1576183368 source:d:\parcialfantasma - pilotos\entidad_4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"entidad_4.h"
+
+1576183368 d:\parcialfantasma - pilotos\entidad_4.h
+
+1576197943 source:d:\parcialfantasma - pilotos\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
+1576197708 d:\parcialfantasma - pilotos\informes.h
+
+1573415846 source:d:\parcialfantasma - pilotos\inputdiaz.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
+1576196765 source:d:\parcialfantasma - pilotos\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_2.h"
+	"entidad_3.h"
+
+1576197749 source:d:\parcialfantasma - pilotos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inputDiaz.h"
+	"entidad_1.h"
+	"entidad_2.h"
+	"entidad_3.h"
+	"informes.h"
+
