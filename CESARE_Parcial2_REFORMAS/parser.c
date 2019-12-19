@@ -8,36 +8,38 @@
 
 /** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo texto).
  *
- * \param path char*
- * \param pArrayListEmployee LinkedList*
+ * \param IDENTIFICADOR DE FICHERO path char*
+ * \param CADENA DE FORMATO
+ * \param SE GUARDARA EN pArrayListEmployee LinkedList*
  * \return int
  *
  */
- int parser_ComputersFromText(FILE* pFile, LinkedList* pArrayLinkedComputers)
+ int parser_BikesFromText(FILE* pFile, LinkedList* pLinkedBikes)
 {
     int result = 0;
-    char id[30];
-    char descripcion[200];
-    char precio[30];
-    char idTipo[30];
+    char id[10];
+    char nombre[30];
+    char tipo[30];
+    char tiempo[30];
+    char velocidad[30];
 
     int cant;
 
-    eComputer* compu= NULL; ///se inicializa
+    eBicicleta* bici= NULL; ///se inicializa
 
-    if(pFile != NULL && pArrayLinkedComputers != NULL)
+    if(pFile != NULL && pLinkedBikes != NULL)
     {
-        cant=fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n],\n",id, descripcion, precio,idTipo);
+        cant=fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n],\n",id, nombre, tipo,tiempo);
         while(!feof(pFile))
         {
-            cant = fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n],\n",id, descripcion, precio,idTipo);
+            cant = fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n],\n",id,nombre,tipo,tiempo);
             if(cant == 4)
             {
-                compu = newComputer_Parametros(id, descripcion, precio,idTipo, "");
-
-                if(compu != NULL)
+               /// compu = newComputer_Parametros(id, descripcion, precio,idTipo, "");
+                bici = newBicicleta_Parametros(id, nombre, tipo, tiempo, velocidad);
+                if(bici != NULL)
                 {
-                    ll_add(pArrayLinkedComputers,compu);
+                    ll_add(pLinkedBikes,bici);
                     result = 1;
                 }
             }

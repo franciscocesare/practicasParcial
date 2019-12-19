@@ -66,14 +66,13 @@ int menu()
     int option;
 
     system("cls");
-    printf("****PRACTICA PARCIAL****\n\n");
-    printf("1. Cargar los datos .\n");
-    printf("2. Ordenar la lista\n");
-    printf("3. Mostrar la lista\n");
-    printf("4. Mapear y Setear la lista\n");///
-    printf("5. Filtrar y mostrar tipo DeskTop\n");///
-    printf("6. Generar archivo de Salida Filtrado Desktop\n");///
-    printf("7. Salir.\n");
+    printf("****EXAMEN INTEGRADOR BICICLETAS ERNESTO****\n\n");
+    printf("1. CARGAR LOS DATOS .\n");
+    printf("2. IMPRIMIR LA LISTA\n");
+    printf("3. CALCULAR VELOCIDAD PROMEDIO\n");
+    printf("4. FILTRAR POR TIPO DE BICI\n");///
+    printf("5. MOSTRAR POSICIONES\n");///
+    printf("6. Salir.\n");
     printf("\nIngrese una opcion del menu: ");
     fflush(stdin);
     scanf("%d", &option);

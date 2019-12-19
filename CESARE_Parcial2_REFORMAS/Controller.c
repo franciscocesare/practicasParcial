@@ -18,12 +18,12 @@
  * \return int
  *
  */
- int controller_loadFromText(char* path , LinkedList* pArrayLinkedComputers)
+ int controller_loadFromText(char* path , LinkedList* pLinkedBikes)
 {
      FILE* pFile = NULL;
     int result=0;
 
-    if(path != NULL && pArrayLinkedComputers != NULL){
+    if(path != NULL && pLinkedBikes != NULL){
         pFile= fopen(path,"r");
         if(pFile==NULL)
         {
@@ -31,7 +31,7 @@
         }
         else
         {
-          result = parser_ComputersFromText(pFile, pArrayLinkedComputers);
+          result = parser_BikesFromText(pFile, pLinkedBikes);
         }
     }
     fclose(pFile);
@@ -88,7 +88,7 @@
 }
 */
 
-int controller_map(LinkedList* pList)
+/*int controller_map(LinkedList* pList)
 {
     int todoOk = 0;
 
@@ -101,6 +101,87 @@ int controller_map(LinkedList* pList)
       todoOk=1;
 
     }
+    return todoOk;
+}*/
+
+int Controller_filterPorTipo(LinkedList* pListBike)
+{
+    int todoOk = 0;
+    int option;
+
+    LinkedList* listaMTB = ll_newLinkedList();
+    LinkedList* listaPASEO=ll_newLinkedList();
+    LinkedList* listaBMX=ll_newLinkedList();
+    LinkedList* listaPLAYERA=ll_newLinkedList();
+
+  ///  int criterio;
+
+    system("cls");
+    printf("***FILTRAR POR TIPO***\n");
+    printf("\n1-PASEO");
+    printf("\n2-BMX");
+    printf("\n3-MTB");
+    printf("\n4-PLAYERA");
+
+    if(pListBike != NULL)
+    {
+
+        printf("\nIngrese la opcion elegida: ");
+        fflush(stdin);
+        scanf("%d",&option);
+
+
+        switch(option)
+        {
+        case 1:
+            printf("\nFiltrando las bicicletas por Tipo\n");
+            //ll_sort(pArrayListEmployee, ordenarEmpleadosId, criterio);
+           if ( listaPASEO=ll_filter(pListBike, filter_paseo))
+           {
+               controller_saveAsText("filtradoPASEO.csv", listaPASEO);
+           }
+
+
+            todoOk=1;
+            break;
+
+        case 2:
+            printf("\nFiltrando las bicicletas por Tipo\n");
+
+           if (listaBMX=ll_filter(pListBike, filter_bmx))
+           {
+               controller_saveAsText("filtradoBMX.csv", listaBMX);
+           }
+            todoOk=1;
+            break;
+
+        case 3:
+            printf("\nFiltrando las bicicletas por Tipo\n");
+
+           if (listaMTB=ll_filter(pListBike, filter_mtb))
+           {
+               controller_saveAsText("filtradoMTB.csv", listaMTB);
+           }
+            todoOk=1;
+            break;
+
+        case 4:
+            printf("\nFiltrando las bicicletas por Tipo\n");
+
+
+           if (listaPLAYERA=ll_filter(pListBike, filter_playera))
+           {
+               controller_saveAsText("filtradoPLAYERA.csv", listaPLAYERA);
+           }
+            todoOk=1;
+            break;
+
+        default:
+            printf("\nOPCION INVALIDA.\n");
+        }
+
+    }
+    printf("\nSe filtro y genero archivo .CSV correctamente.\n\n");
     return todoOk;
 }
 
@@ -122,7 +203,7 @@ int controller_sort(LinkedList* pList)
     if(pList != NULL)
     {
 
-       ll_sort(pList,sortComputers,1);
+///       ll_sort(pList,sortComputers,1);
 
     }
     system("pause");
@@ -140,20 +221,19 @@ int controller_sort(LinkedList* pList)
  *
  */
 ///int controller_saveAsText(char* path , LinkedList* pArrayLinkedDominio)
-int controller_saveAsText(char* path , LinkedList* pArrayLinkedComputers)
+int controller_saveAsText(char* path , LinkedList* pLinkedBikes)
 {
     FILE* pFile = NULL;
-    eComputer* auxComputer = NULL;///la inicio en NULL para arrancar
-    int size=ll_len(pArrayLinkedComputers);///defino el tamaño igual al array
+    eBicicleta* auxBike = NULL;///la inicio en NULL para arrancar
+    int size=ll_len(pLinkedBikes);///defino el tamaño igual al array
     int result=-1;
 
     int id;
-    char descripcion[120];
-    float precio;
-    int idTipo;
-    char oferta[30];
+    char nombre[30];
+    char tipo[20];
+    int tiempo;
 
-    if(pArrayLinkedComputers!=NULL && path!=NULL)
+    if(pLinkedBikes!=NULL && path!=NULL)
     {
         if(size>0)
         {
@@ -163,14 +243,13 @@ int controller_saveAsText(char* path , LinkedList* pArrayLinkedComputers)
             {
                  for(int i=0;i<size;i++)
                 {
-                    auxComputer=(eComputer*)ll_get(pArrayLinkedComputers,i);///obtiene el array en tal indice
-                    eComputer_getId(auxComputer,&id);
-                    eComputer_getDescripcion(auxComputer,descripcion);
-                    eComputer_getPrecio(auxComputer,&precio);
-                    eComputer_getIdTipo(auxComputer,&idTipo);
-                    eComputer_getOferta(auxComputer,oferta);
+                    auxBike=(eBicicleta*)ll_get(pLinkedBikes,i);///obtiene el array en tal indice
+                    eBicicleta_getId(auxBike,&id);
+                    eBicicleta_getNombre(auxBike,nombre);
+                    eBicicleta_getTipo(auxBike,tipo);
+                    eBicicleta_getTiempo(auxBike,&tiempo);
 
-                    fprintf(pFile,"%d,%s,%f,%d,%s\n",id,descripcion,precio,idTipo,oferta);
+                    fprintf(pFile,"%d,%s,%s,%d\n",id,nombre,tipo,tiempo);
                 }
                 fclose(pFile);
                 result=1;

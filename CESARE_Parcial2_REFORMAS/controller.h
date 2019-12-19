@@ -1,8 +1,9 @@
 
 
 ///int controller_loadFromText(char* path , LinkedList* pArrayLinkedCachorros);
-int controller_loadFromText(char* path , LinkedList* pArrayLinkedComputers);
-int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee);
+int controller_loadFromText(char* path , LinkedList* pLinkedBikes);
+//int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee
+int Controller_filterPorTipo(LinkedList* pListBike);
 
 int controller_addEmployee(LinkedList* pArrayListEmployee);
 int controller_editEmployee(LinkedList* pArrayListEmployee);

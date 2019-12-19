@@ -437,3 +437,131 @@
 	"Dominio.h"
 	"validaciones.h"
 
+1576724778 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"stdlib.h"
+	"LinkedList.h"
+	"parser.h"
+	"Dominio.h"
+	"validaciones.h"
+
+1576724778 c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\linkedlist.h
+
+1576724778 c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\parser.h
+
+1576724778 c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\dominio.h
+
+1576724778 c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\validaciones.h
+
+1576724778 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"validaciones.h"
+	"Dominio.h"
+
+1576724778 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"Dominio.h"
+	"validaciones.h"
+	"parser.h"
+
+1576724778 c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\controller.h
+
+1576724778 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"stdlib.h"
+	"LinkedList.h"
+	"Dominio.h"
+	"parser.h"
+
+1576724778 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Dominio.h"
+	"validaciones.h"
+
+1576728400 source:c:\users\usuario\desktop\practicasparcial\cesare_parcial2_reformas\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"validaciones.h"
+	"Dominio.h"
+
+1576798357 source:d:\cesare_parcial2_reformas\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"stdlib.h"
+	"LinkedList.h"
+	"parser.h"
+	"Dominio.h"
+	"validaciones.h"
+
+1576788582 d:\cesare_parcial2_reformas\linkedlist.h
+
+1576794320 d:\cesare_parcial2_reformas\parser.h
+
+1576798860 d:\cesare_parcial2_reformas\dominio.h
+
+1576724780 d:\cesare_parcial2_reformas\validaciones.h
+
+1576724780 source:d:\cesare_parcial2_reformas\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"validaciones.h"
+	"Dominio.h"
+
+1576794811 source:d:\cesare_parcial2_reformas\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Dominio.h"
+	"validaciones.h"
+
+1576798836 source:d:\cesare_parcial2_reformas\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"validaciones.h"
+	"Dominio.h"
+
+1576798673 source:d:\cesare_parcial2_reformas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"Dominio.h"
+	"validaciones.h"
+	"parser.h"
+
+1576798402 d:\cesare_parcial2_reformas\controller.h
+
+1576798946 source:d:\cesare_parcial2_reformas\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"stdlib.h"
+	"LinkedList.h"
+	"Dominio.h"
+	"parser.h"
+
