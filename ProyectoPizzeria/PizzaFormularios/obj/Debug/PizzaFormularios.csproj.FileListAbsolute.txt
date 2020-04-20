@@ -1,0 +1,30 @@
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmClientes.resources
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmPedidos.resources
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.Properties.Resources.resources
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.exe.config
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.exe
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.pdb
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\bin\Debug\EntidadesPizzeria.dll
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\bin\Debug\EntidadesPizzeria.pdb
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.CopyComplete
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.exe
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.pdb
+C:\Users\Usuario\source\repos\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmAltaCliente.resources
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.exe.config
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.exe
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\bin\Debug\PizzaFormularios.pdb
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\bin\Debug\EntidadesPizzeria.dll
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\bin\Debug\EntidadesPizzeria.pdb
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmAltaCliente.resources
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmClientes.resources
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmPedidos.resources
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.Properties.Resources.resources
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.CopyComplete
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.exe
+C:\Users\Usuario\Desktop\labo y progra 2\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.pdb
