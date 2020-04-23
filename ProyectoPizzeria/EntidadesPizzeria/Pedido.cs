@@ -6,6 +6,22 @@ using System.Threading.Tasks;
 
 namespace EntidadesPizzeria
 {
+    public enum SaboresPizzas
+    {
+        Muzzarella,
+        Napoliatana,
+        Margarita,
+        Cantinpalo,
+        JamonYmorron
+    }
+
+    public enum TipoCoccion
+    {
+        Piedra,
+        Molde,
+        Media_Masa
+
+    }
     public class Pedido
     {
         private Cliente cliente;

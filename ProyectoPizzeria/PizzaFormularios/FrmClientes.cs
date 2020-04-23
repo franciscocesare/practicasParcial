@@ -13,9 +13,9 @@ namespace PizzaFormularios
 {
     public partial class FrmClientes : Form
     {
-        
-        private static Cliente[] clientes;
 
+        public static List <Cliente> clientes;  //lista que va a tener los clientes
+                                           
         public FrmClientes()
         {
             InitializeComponent();
@@ -23,19 +23,24 @@ namespace PizzaFormularios
 
         private void FrmClientes_Load(object sender, EventArgs e)
         {
-
+            btnRealizarPedido.Enabled = false;
+            this.timer1.Interval = 1000;
+            this.timer1.Enabled = true;
         }
 
-        ///ACA QUIERO INICIALIXAR CLIENTES Y ASIGNAR UN PAR DE VALORES 
-        private FrmClientes (Cliente cliente): this()
+        static FrmClientes() //la instancio al menos una vez, porque es static
         {
-            clientes = new Cliente[10];
-            clientes[0] =Cliente.CrearCliente("Mariano","Lopez", "lala 123", "abc123");
-            clientes[1] = Cliente.CrearCliente("Jose", "Serrudo", "kakak 452", "ggg444");
             
+           FrmClientes.clientes = new List<Cliente>(); //porque es un ctor las ()
 
+            clientes.Add(new Cliente("Agustin", "Marchesin", "Arias 123"));
+            clientes.Add(new Cliente("Jose Luis", "Gomez", "Fares 533"));
+            clientes.Add(new Cliente("Hugo", "Morales", "Juncal 123"));
+            clientes.Add(new Cliente("Jose", "Sand", "Pavon 5422"));
+            clientes.Add(new Cliente("Lautaro", "Acosta", "Bolaños 9928"));
         }
 
+    
 
         private void btnRealizarPedido_Click(object sender, EventArgs e)
         {
@@ -50,29 +55,41 @@ namespace PizzaFormularios
 
             FrmAltaCliente frmAltaCliente = new FrmAltaCliente(); //creo un nuevo frmAlta, de la clase FrmAlta
             frmAltaCliente.IsMdiContainer = true; //is mdi container es que abre otro form?
-            frmAltaCliente.Show(this); //muestra el formulario
+                                                  //  frmAltaCliente.Show(this); //muestra el formulario
+            frmAltaCliente.ShowDialog(); //espera a que complete el otro form para volver
             this.Cursor = Cursors.VSplit;
         }
 
-        private void btnSeleccionarCliente(object sender, EventArgs e)
-        {
+        public void btnSeleccionarCliente(object sender, EventArgs e)
+        { 
+            this.cmbListaClientes.Items.Clear();
+                  
+
+            foreach (Cliente item in FrmClientes.clientes)
+            {
+               
+               if (!(item is null))
+                this.cmbListaClientes.Items.Add(item.MostrarCliente());
+                
+            }
+           
             
 
-            cmbListaClientes.DataSource = clientes;
-            string clienteSelect = Convert.ToString(cmbListaClientes.SelectedIndex);
-
-            //habilito el pass, que lo ingrese y btnAceptar que si esta ok
-            //se habilite el clik en realizar pedido
-            //txtPassW.Enabled = true;
         }
 
-       
-
-        private void btnAceptarLogin(object sender, EventArgs e)
+        private void cmbListaClientes_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+            if (this.cmbListaClientes.SelectedIndex != 0)
+            {
+                btnRealizarPedido.Enabled = true;
+                btnAltaCliente.Enabled=false;
+
+            }
         }
 
-        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblHorario.Text = DateTime.Now.ToString("HH:MM:ss");
+        }
     }
 }

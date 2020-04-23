@@ -36,8 +36,7 @@
             this.txtbApellido = new System.Windows.Forms.TextBox();
             this.txtDomicilio = new System.Windows.Forms.TextBox();
             this.btnAceptarDatos = new System.Windows.Forms.Button();
-            this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.btnCancelarSolicitud = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -100,46 +99,43 @@
             // 
             // btnAceptarDatos
             // 
-            this.btnAceptarDatos.Location = new System.Drawing.Point(82, 156);
+            this.btnAceptarDatos.Location = new System.Drawing.Point(12, 156);
             this.btnAceptarDatos.Name = "btnAceptarDatos";
             this.btnAceptarDatos.Size = new System.Drawing.Size(169, 40);
             this.btnAceptarDatos.TabIndex = 3;
-            this.btnAceptarDatos.Text = "Click Al Finalizar Solicitud";
+            this.btnAceptarDatos.Text = "Aceptar Solicitud";
             this.btnAceptarDatos.UseVisualStyleBackColor = true;
             this.btnAceptarDatos.Click += new System.EventHandler(this.btnAceptarDatos_Click);
             // 
-            // lblContraseña
+            // btnCancelarSolicitud
             // 
-            this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(42, 131);
-            this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(61, 13);
-            this.lblContraseña.TabIndex = 0;
-            this.lblContraseña.Text = "Contraseña";
-            // 
-            // txtContraseña
-            // 
-            this.txtContraseña.Location = new System.Drawing.Point(107, 128);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(129, 20);
-            this.txtContraseña.TabIndex = 2;
+            this.btnCancelarSolicitud.Location = new System.Drawing.Point(170, 156);
+            this.btnCancelarSolicitud.Name = "btnCancelarSolicitud";
+            this.btnCancelarSolicitud.Size = new System.Drawing.Size(169, 40);
+            this.btnCancelarSolicitud.TabIndex = 3;
+            this.btnCancelarSolicitud.Text = "Cancelar Solicitud";
+            this.btnCancelarSolicitud.UseVisualStyleBackColor = true;
+            this.btnCancelarSolicitud.Click += new System.EventHandler(this.btnCancelarSolicitud_Click);
             // 
             // FrmAltaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(351, 208);
+            this.Controls.Add(this.btnCancelarSolicitud);
             this.Controls.Add(this.btnAceptarDatos);
-            this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtDomicilio);
             this.Controls.Add(this.txtbApellido);
             this.Controls.Add(this.txtbNombre);
             this.Controls.Add(this.lblTituloFormAlta);
-            this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblDomicilio);
             this.Controls.Add(this.lblApellido);
             this.Controls.Add(this.lblNombre);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmAltaCliente";
             this.Text = "Nuevo Cliente";
             this.Load += new System.EventHandler(this.FrmAltaCliente_Load);
@@ -158,7 +154,6 @@
         private System.Windows.Forms.TextBox txtbApellido;
         private System.Windows.Forms.TextBox txtDomicilio;
         private System.Windows.Forms.Button btnAceptarDatos;
-        private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Button btnCancelarSolicitud;
     }
 }

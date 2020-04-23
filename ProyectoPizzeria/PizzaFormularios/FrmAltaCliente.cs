@@ -14,7 +14,8 @@ namespace PizzaFormularios
 {
     public partial class FrmAltaCliente : Form
     {
-        Cliente cliente;
+       public Cliente cliente;
+
 
         public FrmAltaCliente()
         {
@@ -30,24 +31,42 @@ namespace PizzaFormularios
 
         private void btnAceptarDatos_Click(object sender, EventArgs e)
         {
+
+            bool cargoDatos=false;
+
             Cliente cliente = new Cliente(); //creo un nuevo cliente
 
-            //validaciones para construir con lo cargado un objeto cliente de la clase cliente
+
             if (Validaciones.ValidarCargaStringForms(txtbNombre.Text)
                             && Validaciones.ValidarCargaStringForms(txtbApellido.Text)
-                            && Validaciones.ValidarCargaStringForms(txtDomicilio.Text)
-                            && Validaciones.ValidarCargaStringForms(txtContraseña.Text))
+                            && Validaciones.ValidarCargaStringForms(txtDomicilio.Text))
 
             {
-                this.DialogResult = DialogResult.OK;
 
-                cliente = Cliente.CrearCliente(txtbNombre.Text, txtbApellido.Text, txtDomicilio.Text, txtContraseña.Text);
-                this.Close();            
+                cliente = Cliente.CrearCliente(txtbNombre.Text, txtbApellido.Text, txtDomicilio.Text);
+
+                FrmClientes.clientes.Add(cliente); //suma a la lista de otro form el cliente creado
+
+                cargoDatos = true;
+                if (cargoDatos)
+                {
+                    this.DialogResult = DialogResult.OK;//es la respuesta para trabajar con el otro form
+                    MessageBox.Show("Cliente Cargado Con exito");
+                    this.Close();
+                }
+
+
             }
             else
-                this.DialogResult = DialogResult.No;            
-           
+                //this.DialogResult = DialogResult.No;
+                MessageBox.Show("Faltan Cargar Datos");
+                
+
+
+
         }
+
+       
 
 
 
@@ -62,6 +81,12 @@ namespace PizzaFormularios
         private void FrmAltaCliente_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnCancelarSolicitud_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Solicitud Cancelada");
+            this.Close();
         }
     }
 }

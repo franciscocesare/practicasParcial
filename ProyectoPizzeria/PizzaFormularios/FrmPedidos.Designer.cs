@@ -38,7 +38,10 @@
             this.lblCompletarPedido = new System.Windows.Forms.Label();
             this.cmbCoccion = new System.Windows.Forms.ComboBox();
             this.cmbGustos = new System.Windows.Forms.ComboBox();
+            this.numCantidad = new System.Windows.Forms.NumericUpDown();
+            this.lblCantidad = new System.Windows.Forms.Label();
             this.grbDelivery.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // btbConfirmarPedido
@@ -63,7 +66,7 @@
             // lblCoccion
             // 
             this.lblCoccion.AutoSize = true;
-            this.lblCoccion.Location = new System.Drawing.Point(35, 109);
+            this.lblCoccion.Location = new System.Drawing.Point(38, 109);
             this.lblCoccion.Name = "lblCoccion";
             this.lblCoccion.Size = new System.Drawing.Size(85, 13);
             this.lblCoccion.TabIndex = 1;
@@ -95,7 +98,7 @@
             // 
             this.grbDelivery.Controls.Add(this.rdbtntRetiro);
             this.grbDelivery.Controls.Add(this.rdbtnEnvio);
-            this.grbDelivery.Location = new System.Drawing.Point(56, 153);
+            this.grbDelivery.Location = new System.Drawing.Point(12, 169);
             this.grbDelivery.Name = "grbDelivery";
             this.grbDelivery.Size = new System.Drawing.Size(180, 50);
             this.grbDelivery.TabIndex = 3;
@@ -110,6 +113,7 @@
             this.btnCancelarPedido.TabIndex = 0;
             this.btnCancelarPedido.Text = "Cancelar";
             this.btnCancelarPedido.UseVisualStyleBackColor = true;
+            this.btnCancelarPedido.Click += new System.EventHandler(this.btnCancelarPedido_Click);
             // 
             // lblCompletarPedido
             // 
@@ -150,12 +154,31 @@
             this.cmbGustos.TabIndex = 6;
             this.cmbGustos.Text = "Sabores";
             // 
+            // numCantidad
+            // 
+            this.numCantidad.Location = new System.Drawing.Point(130, 135);
+            this.numCantidad.Name = "numCantidad";
+            this.numCantidad.Size = new System.Drawing.Size(62, 20);
+            this.numCantidad.TabIndex = 0;
+            this.numCantidad.ValueChanged += new System.EventHandler(this.numCantidad_ValueChanged);
+            // 
+            // lblCantidad
+            // 
+            this.lblCantidad.AutoSize = true;
+            this.lblCantidad.Location = new System.Drawing.Point(71, 137);
+            this.lblCantidad.Name = "lblCantidad";
+            this.lblCantidad.Size = new System.Drawing.Size(49, 13);
+            this.lblCantidad.TabIndex = 7;
+            this.lblCantidad.Text = "Cantidad";
+            // 
             // FrmPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(353, 276);
+            this.Controls.Add(this.lblCantidad);
+            this.Controls.Add(this.numCantidad);
             this.Controls.Add(this.cmbGustos);
             this.Controls.Add(this.cmbCoccion);
             this.Controls.Add(this.lblCompletarPedido);
@@ -169,6 +192,7 @@
             this.Load += new System.EventHandler(this.FrmPedidos_Load);
             this.grbDelivery.ResumeLayout(false);
             this.grbDelivery.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +210,7 @@
         private System.Windows.Forms.Label lblCompletarPedido;
         private System.Windows.Forms.ComboBox cmbCoccion;
         private System.Windows.Forms.ComboBox cmbGustos;
+        private System.Windows.Forms.NumericUpDown numCantidad;
+        private System.Windows.Forms.Label lblCantidad;
     }
 }

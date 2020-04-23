@@ -12,7 +12,7 @@ namespace EntidadesPizzeria
         private string apellido;
         private string nombre;
         private string domicilio;
-        private string contraseña;
+       
 
         public Cliente(string nombre)
         {
@@ -27,13 +27,9 @@ namespace EntidadesPizzeria
 
         }
 
-        public Cliente(string nombre, string domicilio, string contraseña) : this(nombre, domicilio)
-        {
+       
 
-            this.contraseña = contraseña;
-        }
-
-        public Cliente(string nombre, string apellido, string domicilio, string contraseña) : this(nombre, domicilio, contraseña)
+        public Cliente(string nombre, string apellido, string domicilio) : this(nombre, domicilio)
         {
 
             this.apellido = apellido;
@@ -46,8 +42,8 @@ namespace EntidadesPizzeria
         public string MostrarCliente() //GETTER???
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Apellido :" + apellido);
-            sb.AppendLine("Nombre :" + nombre);
+            sb.AppendLine( apellido);
+            sb.AppendLine("," + nombre);
            // sb.AppendFormat("Direccion : {0}", domicilio);
             return sb.ToString();
 
@@ -67,15 +63,10 @@ namespace EntidadesPizzeria
             this.domicilio =domicilio;
         }
 
-        public void SetContraseña(string contraseña)
-        {
 
-            this.contraseña=contraseña;
-        }
-
-        public static Cliente CrearCliente(string nombre, string apellido, string domicilio, string contraseña)
+        public static Cliente CrearCliente(string nombre, string apellido, string domicilio)
         {
-            return new Cliente(nombre, apellido, domicilio, contraseña);
+            return new Cliente(nombre, apellido, domicilio);
         }
 
        
