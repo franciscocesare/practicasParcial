@@ -12,7 +12,7 @@ namespace EntidadesPizzeria
         private string tipoCoccion;
         private string gusto;
 
-
+        //constructor
         public Pizza (decimal cantidad, string gusto, string tipoCoccion)
         {
             this.tipoCoccion = tipoCoccion;
@@ -20,6 +20,61 @@ namespace EntidadesPizzeria
             this.cantidad = cantidad;
 
         }
+
+        private decimal ValidarCantidad(decimal cant)
+        {
+            if (cant != 0 && cant < 8)
+            {
+                return cant;
+            }
+            else
+                return 0;
+        }
+       
+        //propiedades
+        public decimal Cantidad
+        {
+            get 
+            { 
+                return this.cantidad; 
+            }
+            set 
+            {
+                this.cantidad = ValidarCantidad(value);
+            }
+        }
+
+        public string TipoCoccion
+        {
+            get 
+            {
+                return this.tipoCoccion;
+            }
+            set 
+            {
+                this.tipoCoccion = value;            
+            }
+
+        }
+
+        public string Gusto
+        {
+            get
+            {
+                return this.gusto;
+            }
+            set
+            {
+                this.gusto = value;
+            }
+
+        }
+
+        public string MostrarPizza()
+        {
+            return this.Gusto + this.TipoCoccion + this.Cantidad;
+        }
+
 
         //sobrecarga de igualdad, si una pizza es igual a la otra
         public static bool operator == (Pizza a, Pizza b)

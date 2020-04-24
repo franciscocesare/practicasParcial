@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades;
 using EntidadesPizzeria;
 
 namespace EntidadesPizzeria
@@ -42,26 +43,58 @@ namespace EntidadesPizzeria
         public string MostrarCliente() //GETTER???
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine( apellido);
-            sb.AppendLine("," + nombre);
-           // sb.AppendFormat("Direccion : {0}", domicilio);
+            sb.AppendLine( Apellido);
+            sb.AppendLine("," + Nombre);
+           
             return sb.ToString();
 
         }
 
-        public void SetNombre(string nombre)
+       public string Apellido
         {
-            this.nombre=nombre;
+            get
+            {
+                return this.apellido;
+
+            }
+            set
+            {
+                this.apellido = value;
+
+            }
+        
         }
 
-        public void SetApellido(string apellido)
+        public string Nombre
         {
-            this.apellido = apellido;
+            get
+            {
+
+                return this.nombre;
+            }
+            set
+            {
+                this.nombre = value;
+
+            }
         }
-        public void SetDomicilio(string domicilio)
+
+        public string Domicilio
         {
-            this.domicilio =domicilio;
+
+            get
+            {
+                return this.domicilio;
+                
+            }
+            set
+            {
+                this.domicilio = value;
+
+            }
         }
+
+
 
 
         public static Cliente CrearCliente(string nombre, string apellido, string domicilio)

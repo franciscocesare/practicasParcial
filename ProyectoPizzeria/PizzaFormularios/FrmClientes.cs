@@ -44,7 +44,7 @@ namespace PizzaFormularios
 
         private void btnRealizarPedido_Click(object sender, EventArgs e)
         {
-            FrmPedidos frmPedido = new FrmPedidos();
+            FrmPedidos frmPedido = new FrmPedidos((Cliente)clientes[cmbListaClientes.SelectedIndex]);
             frmPedido.IsMdiContainer = true;
             frmPedido.Show(this);
             this.Cursor = Cursors.VSplit;

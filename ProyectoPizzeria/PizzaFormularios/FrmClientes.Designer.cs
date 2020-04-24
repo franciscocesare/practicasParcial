@@ -37,6 +37,7 @@
             this.lblHorario = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblHora = new System.Windows.Forms.Label();
+            this.listPedidos = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // cmbListaClientes
@@ -62,7 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 99);
+            this.label1.Location = new System.Drawing.Point(4, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 4;
@@ -70,7 +71,7 @@
             // 
             // btnAltaCliente
             // 
-            this.btnAltaCliente.Location = new System.Drawing.Point(122, 99);
+            this.btnAltaCliente.Location = new System.Drawing.Point(7, 115);
             this.btnAltaCliente.Name = "btnAltaCliente";
             this.btnAltaCliente.Size = new System.Drawing.Size(87, 23);
             this.btnAltaCliente.TabIndex = 5;
@@ -83,7 +84,7 @@
             this.btnRealizarPedido.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnRealizarPedido.FlatAppearance.BorderSize = 4;
             this.btnRealizarPedido.ForeColor = System.Drawing.Color.Navy;
-            this.btnRealizarPedido.Location = new System.Drawing.Point(64, 149);
+            this.btnRealizarPedido.Location = new System.Drawing.Point(7, 149);
             this.btnRealizarPedido.Name = "btnRealizarPedido";
             this.btnRealizarPedido.Size = new System.Drawing.Size(125, 71);
             this.btnRealizarPedido.TabIndex = 6;
@@ -113,11 +114,21 @@
             this.lblHora.TabIndex = 8;
             this.lblHora.Text = "Hora";
             // 
+            // listPedidos
+            // 
+            this.listPedidos.AllowDrop = true;
+            this.listPedidos.FormattingEnabled = true;
+            this.listPedidos.Location = new System.Drawing.Point(138, 49);
+            this.listPedidos.Name = "listPedidos";
+            this.listPedidos.Size = new System.Drawing.Size(149, 160);
+            this.listPedidos.TabIndex = 9;
+            // 
             // FrmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(300, 232);
+            this.Controls.Add(this.listPedidos);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.lblHorario);
             this.Controls.Add(this.btnRealizarPedido);
@@ -143,5 +154,6 @@
         private System.Windows.Forms.Label lblHorario;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.ListBox listPedidos;
     }
 }

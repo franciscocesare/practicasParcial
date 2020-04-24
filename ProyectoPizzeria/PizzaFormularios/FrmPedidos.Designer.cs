@@ -40,6 +40,7 @@
             this.cmbGustos = new System.Windows.Forms.ComboBox();
             this.numCantidad = new System.Windows.Forms.NumericUpDown();
             this.lblCantidad = new System.Windows.Forms.Label();
+            this.listPedidos = new System.Windows.Forms.ListBox();
             this.grbDelivery.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +58,7 @@
             // lblGustoPizza
             // 
             this.lblGustoPizza.AutoSize = true;
-            this.lblGustoPizza.Location = new System.Drawing.Point(35, 73);
+            this.lblGustoPizza.Location = new System.Drawing.Point(1, 57);
             this.lblGustoPizza.Name = "lblGustoPizza";
             this.lblGustoPizza.Size = new System.Drawing.Size(88, 13);
             this.lblGustoPizza.TabIndex = 1;
@@ -66,7 +67,7 @@
             // lblCoccion
             // 
             this.lblCoccion.AutoSize = true;
-            this.lblCoccion.Location = new System.Drawing.Point(38, 109);
+            this.lblCoccion.Location = new System.Drawing.Point(4, 93);
             this.lblCoccion.Name = "lblCoccion";
             this.lblCoccion.Size = new System.Drawing.Size(85, 13);
             this.lblCoccion.TabIndex = 1;
@@ -134,7 +135,7 @@
             "Piedra\t",
             "Molde",
             "Indistinto"});
-            this.cmbCoccion.Location = new System.Drawing.Point(129, 106);
+            this.cmbCoccion.Location = new System.Drawing.Point(95, 90);
             this.cmbCoccion.Name = "cmbCoccion";
             this.cmbCoccion.Size = new System.Drawing.Size(120, 21);
             this.cmbCoccion.TabIndex = 6;
@@ -148,7 +149,7 @@
             "Napolitana",
             "Especial",
             "Margarita"});
-            this.cmbGustos.Location = new System.Drawing.Point(129, 70);
+            this.cmbGustos.Location = new System.Drawing.Point(95, 54);
             this.cmbGustos.Name = "cmbGustos";
             this.cmbGustos.Size = new System.Drawing.Size(120, 21);
             this.cmbGustos.TabIndex = 6;
@@ -156,7 +157,7 @@
             // 
             // numCantidad
             // 
-            this.numCantidad.Location = new System.Drawing.Point(130, 135);
+            this.numCantidad.Location = new System.Drawing.Point(96, 119);
             this.numCantidad.Name = "numCantidad";
             this.numCantidad.Size = new System.Drawing.Size(62, 20);
             this.numCantidad.TabIndex = 0;
@@ -165,18 +166,28 @@
             // lblCantidad
             // 
             this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Location = new System.Drawing.Point(71, 137);
+            this.lblCantidad.Location = new System.Drawing.Point(37, 121);
             this.lblCantidad.Name = "lblCantidad";
             this.lblCantidad.Size = new System.Drawing.Size(49, 13);
             this.lblCantidad.TabIndex = 7;
             this.lblCantidad.Text = "Cantidad";
             // 
+            // listPedidos
+            // 
+            this.listPedidos.FormattingEnabled = true;
+            this.listPedidos.Location = new System.Drawing.Point(221, 16);
+            this.listPedidos.Name = "listPedidos";
+            this.listPedidos.Size = new System.Drawing.Size(180, 173);
+            this.listPedidos.TabIndex = 3;
+            // 
             // FrmPedidos
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(353, 276);
+            this.ClientSize = new System.Drawing.Size(413, 298);
+            this.Controls.Add(this.listPedidos);
             this.Controls.Add(this.lblCantidad);
             this.Controls.Add(this.numCantidad);
             this.Controls.Add(this.cmbGustos);
@@ -187,6 +198,9 @@
             this.Controls.Add(this.lblGustoPizza);
             this.Controls.Add(this.btnCancelarPedido);
             this.Controls.Add(this.btbConfirmarPedido);
+            this.IsMdiContainer = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmPedidos";
             this.Text = "Pedidos Clientes";
             this.Load += new System.EventHandler(this.FrmPedidos_Load);
@@ -212,5 +226,6 @@
         private System.Windows.Forms.ComboBox cmbGustos;
         private System.Windows.Forms.NumericUpDown numCantidad;
         private System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.ListBox listPedidos;
     }
 }
