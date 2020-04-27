@@ -21,9 +21,9 @@ namespace EntidadesPizzeria
 
         }
 
-        private decimal ValidarCantidad(decimal cant)
+        private int ValidarCantidad(int cant)
         {
-            if (cant != 0 && cant < 8)
+            if (cant != 0 && cant <= 8)
             {
                 return cant;
             }
@@ -40,7 +40,7 @@ namespace EntidadesPizzeria
             }
             set 
             {
-                this.cantidad = ValidarCantidad(value);
+                this.cantidad = ValidarCantidad((int)value);
             }
         }
 
@@ -72,15 +72,23 @@ namespace EntidadesPizzeria
 
         public string MostrarPizza()
         {
-            return this.Gusto + this.TipoCoccion + this.Cantidad;
+            //return this.Gusto + this.TipoCoccion + this.Cantidad;
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(Cantidad.ToString());
+            sb.AppendLine("De" + Gusto);
+            sb.AppendLine(TipoCoccion);
+
+            return sb.ToString();
+
         }
 
 
         //sobrecarga de igualdad, si una pizza es igual a la otra
         public static bool operator == (Pizza a, Pizza b)
         {
-            if (a != null) //validad que el objeto este creado
-            {
+            if  (!(a is null)) //validad que el objeto este creado
+                {
                 return a.gusto == b.gusto && a.tipoCoccion == b.tipoCoccion;
                 //esto devuelve True o False
             }

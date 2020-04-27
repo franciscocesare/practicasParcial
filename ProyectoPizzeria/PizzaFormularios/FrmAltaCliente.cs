@@ -34,7 +34,7 @@ namespace PizzaFormularios
 
             bool cargoDatos=false;
 
-            Cliente cliente = new Cliente(); //creo un nuevo cliente
+            cliente = new Cliente(); //creo un nuevo cliente
 
 
             if (Validaciones.ValidarCargaStringForms(txtbNombre.Text)
@@ -42,10 +42,7 @@ namespace PizzaFormularios
                             && Validaciones.ValidarCargaStringForms(txtDomicilio.Text))
 
             {
-
                 cliente = Cliente.CrearCliente(txtbNombre.Text, txtbApellido.Text, txtDomicilio.Text);
-
-                FrmClientes.clientes.Add(cliente); //suma a la lista de otro form el cliente creado
 
                 cargoDatos = true;
                 if (cargoDatos)
@@ -67,16 +64,6 @@ namespace PizzaFormularios
         }
 
        
-
-
-
-        //private void VolverAlMenuPrincipal()
-        //{
-        //    menuPrincipal = new MenuPrincipal(estacionamiento);
-        //    menuPrincipal.Show();
-        //    this.Hide();
-        //}
-
 
         private void FrmAltaCliente_Load(object sender, EventArgs e)
         {

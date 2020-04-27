@@ -40,7 +40,7 @@ namespace EntidadesPizzeria
         {
         }
 
-        public string MostrarCliente() //GETTER???
+        public string MostrarCliente() 
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine( Apellido);

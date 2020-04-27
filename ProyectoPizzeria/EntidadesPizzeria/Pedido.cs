@@ -28,26 +28,28 @@ namespace EntidadesPizzeria
         private bool envia = false;
         private DateTime horaIngreso;
         private DateTime horaRetiro;
-        private List <Pizza> pizzas; //array de pizza, nombre pizzas. 
+        public List <Pizza> pizzas; //lista de pizza, nombre pizzas. 
                                 //guardamos objetos pizza en el array, se instancia en el constr
 
 
         //CONSTRUCTORES!!!
-        private Pedido(Cliente cliente)//le paso un cliente por param
+        public Pedido(Cliente cliente, List<Pizza> pizzas): this(cliente)//le paso un cliente por param
 
         {
+           // this.cliente = cliente;
+            this.pizzas = pizzas; //le dpu un limite a la lista?
+           
+        }
+
+        public Pedido(Cliente cliente)
+        {
             this.cliente = cliente;
-            this.pizzas = new List<Pizza>();
-            
-            //para haber un pedido tiene que haber un cliente
-            //this.pizzas = new List <Pizza>(); //lo inicialiazamos lista
-           // this.envia = false;
-          //  this.horaIngreso = DateTime.Now; //se hace aca, en el constructor!!
+
         }
 
         #region Propiedades 
 
-        public List <Pizza> Pizza
+        public List<Pizza> PropPizzas
         {
             get
             {
@@ -120,21 +122,22 @@ namespace EntidadesPizzeria
         public string MostrarPedido()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine(this.HoraIngreso.ToString("HH:mm"));
-            sb.AppendLine(this.Cliente.Nombre);
-           // sb.AppendLine(this.pizzas.Countpizzas(); //TENGO MIS DUDAS DEL INDICE DE LA LISTA
+            sb.Append(HoraIngreso.ToString("HH:MM"));
+            sb.Append(this.Cliente.Apellido);
+            sb.Append(this.Cliente.Nombre);
+            sb.Append(this.GetGustoYCantidad());//TENGO MIS DUDAS DEL INDICE DE LA LISTA
             return sb.ToString();
         }
 
         public string GetGustoYCantidad()
         {
             StringBuilder sb = new StringBuilder();
+
             foreach (Pizza item in this.pizzas)
             {
                 if (!(item is null))
                 {
-                    sb.Append($"{item.Gusto}({item.Cantidad})");
-
+                    sb.Append($"{item.Gusto}{item.Cantidad}{item.TipoCoccion}");
                 }
 
             }
@@ -151,20 +154,24 @@ namespace EntidadesPizzeria
         }
 
         
+        ///// ACA ME HACE ERROR EN EJECUCION, LLEGA EN NULL? LA LISTA
 
-
-        public static bool operator +(Pedido pedido, Pizza pizza)
+        public static bool operator + (Pedido pedido, Pizza pizza)
         {
             //va a buscar en el array de piza existe, y si esta. la suma. sino va al otro For
-            for (int i = 0; i < pedido.pizzas.Count; i++)
+            //desde que lo hice list tengo errores
+            for (int i = 0; i < pedido.pizzas.Capacity; i++)
             {
-                if (pedido.pizzas[i] + pizza)
+                if (pedido.pizzas[i]+ pizza)
                     return true;
 
             }
-            
+
+           ///NO PUEDO HACER QUE LA SOBRECARGA DE OPERADORES ME DEEVUELVA UN NUEVO PEDIDO???
+
+
             //este bucle agrega si no existe, porque estaa null
-            for (int i = 0; i < pedido.pizzas.Count; i++)
+            for (int i = 0; i < pedido.pizzas.Capacity; i++)
 
             {
                 if (pedido.pizzas[i] is null)

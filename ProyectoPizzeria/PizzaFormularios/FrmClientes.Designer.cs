@@ -38,6 +38,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblHora = new System.Windows.Forms.Label();
             this.listPedidos = new System.Windows.Forms.ListBox();
+            this.btnVerPedidos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbListaClientes
@@ -95,7 +96,7 @@
             // lblHorario
             // 
             this.lblHorario.AutoSize = true;
-            this.lblHorario.Location = new System.Drawing.Point(247, 9);
+            this.lblHorario.Location = new System.Drawing.Point(221, 9);
             this.lblHorario.Name = "lblHorario";
             this.lblHorario.Size = new System.Drawing.Size(41, 13);
             this.lblHorario.TabIndex = 7;
@@ -108,7 +109,7 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Location = new System.Drawing.Point(211, 9);
+            this.lblHora.Location = new System.Drawing.Point(185, 9);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(30, 13);
             this.lblHora.TabIndex = 8;
@@ -118,16 +119,27 @@
             // 
             this.listPedidos.AllowDrop = true;
             this.listPedidos.FormattingEnabled = true;
-            this.listPedidos.Location = new System.Drawing.Point(138, 49);
+            this.listPedidos.Location = new System.Drawing.Point(138, 75);
             this.listPedidos.Name = "listPedidos";
-            this.listPedidos.Size = new System.Drawing.Size(149, 160);
+            this.listPedidos.Size = new System.Drawing.Size(211, 199);
             this.listPedidos.TabIndex = 9;
+            // 
+            // btnVerPedidos
+            // 
+            this.btnVerPedidos.Location = new System.Drawing.Point(197, 46);
+            this.btnVerPedidos.Name = "btnVerPedidos";
+            this.btnVerPedidos.Size = new System.Drawing.Size(75, 23);
+            this.btnVerPedidos.TabIndex = 10;
+            this.btnVerPedidos.Text = "Ver Pedidos";
+            this.btnVerPedidos.UseVisualStyleBackColor = true;
+            this.btnVerPedidos.Click += new System.EventHandler(this.btnVerPedidos_Click);
             // 
             // FrmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 232);
+            this.ClientSize = new System.Drawing.Size(361, 271);
+            this.Controls.Add(this.btnVerPedidos);
             this.Controls.Add(this.listPedidos);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.lblHorario);
@@ -155,5 +167,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblHora;
         private System.Windows.Forms.ListBox listPedidos;
+        private System.Windows.Forms.Button btnVerPedidos;
     }
 }

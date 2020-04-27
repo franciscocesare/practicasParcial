@@ -41,13 +41,14 @@
             this.numCantidad = new System.Windows.Forms.NumericUpDown();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.listPedidos = new System.Windows.Forms.ListBox();
+            this.btnAgregarPizza = new System.Windows.Forms.Button();
             this.grbDelivery.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // btbConfirmarPedido
             // 
-            this.btbConfirmarPedido.Location = new System.Drawing.Point(17, 225);
+            this.btbConfirmarPedido.Location = new System.Drawing.Point(16, 246);
             this.btbConfirmarPedido.Name = "btbConfirmarPedido";
             this.btbConfirmarPedido.Size = new System.Drawing.Size(106, 31);
             this.btbConfirmarPedido.TabIndex = 0;
@@ -99,7 +100,7 @@
             // 
             this.grbDelivery.Controls.Add(this.rdbtntRetiro);
             this.grbDelivery.Controls.Add(this.rdbtnEnvio);
-            this.grbDelivery.Location = new System.Drawing.Point(12, 169);
+            this.grbDelivery.Location = new System.Drawing.Point(16, 190);
             this.grbDelivery.Name = "grbDelivery";
             this.grbDelivery.Size = new System.Drawing.Size(180, 50);
             this.grbDelivery.TabIndex = 3;
@@ -108,7 +109,7 @@
             // 
             // btnCancelarPedido
             // 
-            this.btnCancelarPedido.Location = new System.Drawing.Point(235, 225);
+            this.btnCancelarPedido.Location = new System.Drawing.Point(140, 246);
             this.btnCancelarPedido.Name = "btnCancelarPedido";
             this.btnCancelarPedido.Size = new System.Drawing.Size(106, 31);
             this.btnCancelarPedido.TabIndex = 0;
@@ -180,6 +181,16 @@
             this.listPedidos.Size = new System.Drawing.Size(180, 173);
             this.listPedidos.TabIndex = 3;
             // 
+            // btnAgregarPizza
+            // 
+            this.btnAgregarPizza.Location = new System.Drawing.Point(16, 145);
+            this.btnAgregarPizza.Name = "btnAgregarPizza";
+            this.btnAgregarPizza.Size = new System.Drawing.Size(180, 28);
+            this.btnAgregarPizza.TabIndex = 9;
+            this.btnAgregarPizza.Text = "Agregar al Pedido";
+            this.btnAgregarPizza.UseVisualStyleBackColor = true;
+            this.btnAgregarPizza.Click += new System.EventHandler(this.btnAgregarPizza_Click);
+            // 
             // FrmPedidos
             // 
             this.AllowDrop = true;
@@ -187,6 +198,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(413, 298);
+            this.Controls.Add(this.btnAgregarPizza);
             this.Controls.Add(this.listPedidos);
             this.Controls.Add(this.lblCantidad);
             this.Controls.Add(this.numCantidad);
@@ -227,5 +239,6 @@
         private System.Windows.Forms.NumericUpDown numCantidad;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.ListBox listPedidos;
+        private System.Windows.Forms.Button btnAgregarPizza;
     }
 }
