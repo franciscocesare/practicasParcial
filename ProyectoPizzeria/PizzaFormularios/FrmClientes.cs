@@ -98,11 +98,11 @@ namespace PizzaFormularios
             this.cmbListaClientes.Items.Clear();
                   
 
-            foreach (Cliente item in this.clientes)
+            foreach (Cliente cliente in this.clientes)
             {
                
-               if (!(item is null))
-                this.cmbListaClientes.Items.Add(item.MostrarCliente());
+               if (!(cliente is null))
+                this.cmbListaClientes.Items.Add(cliente.MostrarCliente());
                 
             }
            

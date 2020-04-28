@@ -44,6 +44,7 @@ namespace EntidadesPizzeria
         public Pedido(Cliente cliente)
         {
             this.cliente = cliente;
+            this.pizzas = new List<Pizza>();
 
         }
 
@@ -160,29 +161,22 @@ namespace EntidadesPizzeria
         {
             //va a buscar en el array de piza existe, y si esta. la suma. sino va al otro For
             //desde que lo hice list tengo errores
-            for (int i = 0; i < pedido.pizzas.Capacity; i++)
+            for (int i = 0; i < pedido.pizzas.Count; i++)
             {
                 if (pedido.pizzas[i]+ pizza)
                     return true;
 
             }
 
-           ///NO PUEDO HACER QUE LA SOBRECARGA DE OPERADORES ME DEEVUELVA UN NUEVO PEDIDO???
+            ///NO PUEDO HACER QUE LA SOBRECARGA DE OPERADORES ME DEEVUELVA UN NUEVO PEDIDO???
 
 
             //este bucle agrega si no existe, porque estaa null
-            for (int i = 0; i < pedido.pizzas.Capacity; i++)
 
-            {
-                if (pedido.pizzas[i] is null)
-                {
+            pedido.pizzas.Add(pizza);   //la agrego directamenteeee
+            return true;
 
-                    pedido.pizzas[i] = pizza; //en el indice null le agrego la pizza
-
-                    return true; //la pudo agregar
-                }
-            }
-            return false;
+            
         }
         #endregion
     }

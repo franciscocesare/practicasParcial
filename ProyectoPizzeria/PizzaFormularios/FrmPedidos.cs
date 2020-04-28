@@ -46,15 +46,16 @@ namespace PizzaFormularios
 
         private void btnAgregarPizza_Click(object sender, EventArgs e)
         {
-           
-           // pizza = new Pizza(numCantidad.Value, cmbGustos.Text, cmbCoccion.Text);
 
-            this.pizza.Gusto = cmbGustos.Text;
-            this.pizza.TipoCoccion = cmbCoccion.Text;
-            this.pizza.Cantidad = numCantidad.Value;
+             pizza = new Pizza(numCantidad.Value, cmbGustos.Text, cmbCoccion.Text);
+           // pizza = new Pizza(pizza.Cantidad, pizza.Gusto, pizza.TipoCoccion);
+
+            //pizza.Gusto = cmbGustos.Text;
+            //pizza.TipoCoccion = cmbCoccion.Text;
+            //pizza.Cantidad = numCantidad.Value;
 
             //ESTEEEE esta al pedo???? manda a cona
-            pizza = new Pizza(pizza.Cantidad, pizza.Gusto, pizza.TipoCoccion);
+            
 
 
             cantidadPizzas += (int)pizza.Cantidad;
