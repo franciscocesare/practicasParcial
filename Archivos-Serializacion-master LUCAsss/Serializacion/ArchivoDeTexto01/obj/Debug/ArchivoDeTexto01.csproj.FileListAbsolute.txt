@@ -1,0 +1,17 @@
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\SerializacionBinaria.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\SerializacionBinaria.pdb
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionBinaria\bin\Debug\SerializacionBinaria.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionBinaria\bin\Debug\SerializacionBinaria.pdb
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\ResolveAssemblyReference.cache
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\SerializacionBinaria.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\SerializacionBinaria.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionBinaria\bin\Debug\SerializacionBinaria.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionBinaria\bin\Debug\SerializacionBinaria.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionBinaria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\bin\Debug\ArchivoDeTexto01.exe.config
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\bin\Debug\ArchivoDeTexto01.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\bin\Debug\ArchivoDeTexto01.pdb
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\obj\Debug\ArchivoDeTexto01.csprojAssemblyReference.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\obj\Debug\ArchivoDeTexto01.csproj.CoreCompileInputs.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\obj\Debug\ArchivoDeTexto01.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionBinaria\obj\Debug\ArchivoDeTexto01.pdb

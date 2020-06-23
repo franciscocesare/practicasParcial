@@ -43,3 +43,4 @@ C:\Users\Usuario\Desktop\labo y progra 2\practicasssss\ProyectoPizzeria\PizzaFor
 C:\Users\Usuario\Desktop\labo y progra 2\practicasssss\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.csproj.CopyComplete
 C:\Users\Usuario\Desktop\labo y progra 2\practicasssss\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.exe
 C:\Users\Usuario\Desktop\labo y progra 2\practicasssss\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.pdb
+C:\Users\Usuario\Desktop\labo y progra 2\practicasssss\ProyectoPizzeria\PizzaFormularios\obj\Debug\PizzaFormularios.FrmLogin.resources

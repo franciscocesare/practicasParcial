@@ -1,0 +1,19 @@
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.pdb
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\Serializacion\obj\Debug\ResolveAssemblyReference.cache
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
+E:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+E:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
+E:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.exe
+E:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.pdb
+E:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+D:\Personal\UTN\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
+E:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+E:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\bin\Debug\Serializacion.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\Serializacion\obj\Debug\ResolveAssemblyReference.cache

@@ -60,6 +60,7 @@
             this.lblClienteExiste.Size = new System.Drawing.Size(112, 13);
             this.lblClienteExiste.TabIndex = 3;
             this.lblClienteExiste.Text = "Seleccione su nombre";
+            this.lblClienteExiste.Click += new System.EventHandler(this.lblClienteExiste_Click);
             // 
             // label1
             // 

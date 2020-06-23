@@ -1,0 +1,22 @@
+D:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\ResolveAssemblyReference.cache
+D:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.exe
+D:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.pdb
+D:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.exe
+D:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.pdb
+W:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.exe
+W:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.pdb
+W:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.exe
+W:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.pdb
+W:\Maxi - Octavio - NO BORRAR\C#-2009\SerializandoHerencia\SerializandoHerencia\obj\Debug\ResolveAssemblyReference.cache
+W:\Maxi\##CSHARP-2010##\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.exe
+W:\Maxi\##CSHARP-2010##\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.pdb
+W:\Maxi\##CSHARP-2010##\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.exe
+W:\Maxi\##CSHARP-2010##\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.pdb
+W:\Maxi\##CSHARP-2010##\SerializandoHerencia\SerializandoHerencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.csprojAssemblyReference.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.csproj.CoreCompileInputs.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\obj\Debug\SerializandoHerencia.pdb
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.exe.config
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\SerializandoHerencia\bin\Debug\SerializandoHerencia.pdb

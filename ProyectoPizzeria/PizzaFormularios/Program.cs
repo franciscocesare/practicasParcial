@@ -16,7 +16,7 @@ namespace PizzaFormularios
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmClientes());
+            Application.Run(new FrmLogin()); //que el programa inicie en el login
         }
     }
 }

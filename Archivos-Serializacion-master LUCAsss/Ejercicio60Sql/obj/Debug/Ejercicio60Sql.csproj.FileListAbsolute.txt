@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Ejercicio60Sql.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Direcciones.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Direcciones.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Direcciones.exe.config
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.FrmSqlAdventureWorks.resources
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Ejercicio60Sql.dll.config
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\bin\Debug\Ejercicio60Sql.dll
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejercicio60Sql\obj\Debug\Ejercicio60Sql.dll

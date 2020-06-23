@@ -1,0 +1,3 @@
+Este es el Encabezado para el archivo.
+-----------------------------
+ARCHIVO NUEVO

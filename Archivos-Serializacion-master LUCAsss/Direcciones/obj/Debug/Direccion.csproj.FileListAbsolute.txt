@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\bin\Debug\Direcciones.exe.config
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\bin\Debug\Direcciones.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\bin\Debug\Direcciones.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direccion.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direcciones.FrmPrimerSql.resources
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direcciones.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direccion.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direccion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direcciones.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Direcciones\obj\Debug\Direcciones.pdb

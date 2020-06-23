@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Ejer_60_Sql.exe.config
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Ejer_60_Sql.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Ejer_60_Sql.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Direcciones.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Direcciones.pdb
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\bin\Debug\Direcciones.exe.config
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.FormSqlAdventure.resources
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.exe
+C:\Users\Usuario\Desktop\Programacion y Laboratorio II - UTN CESARE\Archivos-Serializacion-master LUCAsss\Ejer_60_Sql\obj\Debug\Ejer_60_Sql.pdb

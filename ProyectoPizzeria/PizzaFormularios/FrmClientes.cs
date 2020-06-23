@@ -31,7 +31,7 @@ namespace PizzaFormularios
             clientes.Add(new Cliente("Agustin", "Marchesin", "Arias 123"));
             clientes.Add(new Cliente("Hugo", "Morales", "Juncal 123"));
 
-          //  ordenPedidos.Enqueue(new Pedido(clientes[0])); ///aca no me da error, peeero????
+          // ordenPedidos.Enqueue(new Pedido(clientes[0])); ///aca no me da error, peeero????
 
         }
 
@@ -48,7 +48,7 @@ namespace PizzaFormularios
 
         private void btnRealizarPedido_Click(object sender, EventArgs e)
         {
-            FrmPedidos frmPedido = new FrmPedidos((Cliente)clientes[this.cmbListaClientes.SelectedIndex]);
+            FrmPedidos frmPedido = new FrmPedidos((Cliente)clientes[this.cmbListaClientes.SelectedIndex]); //a realizar pedido ya se lo paso con un cliente
             frmPedido.IsMdiContainer = true;
             frmPedido.Show(this);
             this.Cursor = Cursors.VSplit;
@@ -66,6 +66,7 @@ namespace PizzaFormularios
 
                 this.clientes.Add(frmAltaCliente.cliente); //estoy dentro de la clase, pore eso this, EMPEZO A CAGAR 
                                                                 //lo suma la lista del frmAlta
+                                                                //si ek dialog fue ok, me traigo de frmAlta un cliente
 
             this.Cursor = Cursors.VSplit;
         }
@@ -125,6 +126,9 @@ namespace PizzaFormularios
             lblHorario.Text = DateTime.Now.ToString("HH:MM:ss");
         }
 
-        
+        private void lblClienteExiste_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

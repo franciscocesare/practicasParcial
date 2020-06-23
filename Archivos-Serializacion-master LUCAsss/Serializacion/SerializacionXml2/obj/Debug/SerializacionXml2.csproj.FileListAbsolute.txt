@@ -1,0 +1,16 @@
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.pdb
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\ResolveAssemblyReference.cache
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.exe
+D:\Maxi--Octavio\C#\Clase 11\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.pdb
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\ResolveAssemblyReference.cache
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.exe
+F:\Programacion II\Clase 12\Serializacion C#\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.pdb
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.exe.config
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\bin\Debug\SerializacionXml2.pdb
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.csproj.CoreCompileInputs.cache
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.exe
+C:\Users\Lester\Desktop\Nueva carpeta\Programacion II(diapositivas)\SerializandoHerencia\Serializacion\SerializacionXml2\obj\Debug\SerializacionXml2.pdb

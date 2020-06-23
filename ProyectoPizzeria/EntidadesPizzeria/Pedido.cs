@@ -22,6 +22,16 @@ namespace EntidadesPizzeria
         Media_Masa
 
     }
+
+    public enum AreaPizzeria
+    {
+        Pedidos,
+        Cocina,
+        Delivery,
+        Gerencia
+
+    }
+
     public class Pedido
     {
         private Cliente cliente;
@@ -163,15 +173,10 @@ namespace EntidadesPizzeria
             //desde que lo hice list tengo errores
             for (int i = 0; i < pedido.pizzas.Count; i++)
             {
-                if (pedido.pizzas[i]+ pizza)
+                if (pedido.pizzas[i] + pizza)
                     return true;
 
             }
-
-            ///NO PUEDO HACER QUE LA SOBRECARGA DE OPERADORES ME DEEVUELVA UN NUEVO PEDIDO???
-
-
-            //este bucle agrega si no existe, porque estaa null
 
             pedido.pizzas.Add(pizza);   //la agrego directamenteeee
             return true;
